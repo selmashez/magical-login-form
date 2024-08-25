@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(44, 63, 93);
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #be5c6b;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 5px solid rgb(190, 92, 107);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+}
+
+.cloud{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+}
+.myform label{
+    display: block;
+    position: relative;
+    top: 5px;
+    left: 58px;
+    color: #be5c6b;
+    margin: 8px
+}
+.myform input{
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin:auto;
+    width: 70%;
+    
+}
+
+.myform img{
+    width: 15px;
+    position: relative;
+    left: 306px;
+    bottom: 19px;
+    cursor: pointer;
+}
+
+.snow1{
+    width: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+.snow2{
+    width: 26px;
+    position: relative;
+    bottom: 9px;
+    left: 50px;
+    z-index: 1;
+}
+
+.snow3{
+    width: 23px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+.snow4{
+    width: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+.snow5{
+    width: 23px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+.snow6{
+    width: 11px;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1;
+}
+
+.water{
+    position: relative;
+    right: -61px;
+    top: 13px;
+    display:none;
+}
+
+
+.login{
+    width: 80px;
+    position: relative;
+    top: 70px;
+    right: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.login2{
+    width: 80px;
+    position: relative;
+    top: 70px;
+    right: -119px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #be5c6b;
+    color: white;
+    width: 80px;
+    position: relative;
+    top: 70px;
+    right: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.signup2{
+    background-color: #be5c6b;
+  color: white;
+  width: 80px;
+  position: relative;
+  top: 70px;
+  right: -117px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+
+.forget{
+    text-decoration: none;
+    position: relative;
+    left: 545px;
+    top: 10px;
+    color: rgb(142, 142, 228);
+}
